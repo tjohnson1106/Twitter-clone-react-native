@@ -28,11 +28,11 @@ async component WillMount() {
     if (!this.state.isReady) {
       return <AppLoading />;
     }
-    return (
+    ret
+    );urn (
       <Provider store={store}>
         <Router />
       </Provider>
-    );
   }
 }
 AppRegistry.registerComponent('main', () => App);
